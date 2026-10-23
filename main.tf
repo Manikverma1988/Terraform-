@@ -5,3 +5,4 @@ resource "azurerm_resource_group" "example" {
   location   = each.value.location
   managed_by = each.value.managed_by
 }
+

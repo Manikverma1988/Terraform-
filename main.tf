@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 resource "azurerm_resource_group" "example" {
   for_each = var.rg_names
 
@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "example" {
   managed_by = each.value.managed_by
 }
 
-=======
+
 locals {
   mera_tag = {
     environment = "Production"
@@ -51,4 +51,3 @@ resource "azurerm_virtual_network" "vnet" {
 
 
 }
->>>>>>> 8c2ba9e5b4bae51a4cebd159052d3b1cc6062e91
